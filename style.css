@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* height: 20vh; */
+}
+
+body{
+/*    background-image: url("bg.jpg");*/
+/*    background-size: cover;*/
+    overflow: hidden;
+    height: 100vh;
+}
+.taskbar{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+background-color: beige;
+    z-index: 110;
+}
+
+.right{
+    justify-self: flex-end;
+    position: absolute;
+    right: 0;
+    margin: 6px 0;
+    height: 80%;
+    
+}
+.startmenu{
+    position: absolute;
+/*    bottom:50px;*/
+    bottom: -555px;
+    width: 100%;
+    text-align: center;
+    transition: all 0.3s ease-in;
+}
+.startmenu img{
+    border-radius: 8px;
+    height: 30vw;
+}
+.icon{
+    margin-top: 10px;
+    padding-left: 5px;
+    
+}
+#Gc{
+    color: black;
+    font-size: 11px;
+}
+.edgeicon{
+    padding-top: 11px;
+    padding-left: 7px;
+}
+.edgeicon img{
+    padding-left: 4px;
+}
+
+
+#ep{
+    color: black;
+    font-size: 11px;
+}
